@@ -1,0 +1,6 @@
+streamlit>=1.40
+google-genai>=1.0
+google-cloud-firestore>=2.16
+pillow
+pandas
+pydantic
