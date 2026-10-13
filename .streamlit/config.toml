@@ -1,0 +1,12 @@
+# Theme for FixIt Campus. Keeps Streamlit's own chrome in step with the
+# stylesheet in ui.py so widgets, charts and alerts share one palette.
+[theme]
+base = "dark"
+primaryColor = "#f97316"
+backgroundColor = "#0b1120"
+secondaryBackgroundColor = "#151d31"
+textColor = "#e8eefc"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
