@@ -2,7 +2,7 @@
 
 Snap a photo of anything broken on campus. Gemini works out what it is, how urgent it is and who should fix it, then routes a ticket to the right maintenance team.
 
-**Live:** https://fixit-campus.streamlit.app · **Repo:** https://github.com/Parth-191006/fixit-campus
+**Live:** https://fix-it-campus.streamlit.app · **Repo:** https://github.com/Parth-191006/Fix-It-Campus
 
 ## Tech stack
 
@@ -50,7 +50,7 @@ Without a key the app runs in **keyword demo mode** and says so in the UI. The k
 
 ## Deploy
 
-Streamlit Community Cloud (current): push to `main`, then **Create app → Deploy a public app from GitHub**, repo `fixit-campus`, branch `main`, main file `app.py`, and paste secrets into **Manage app → Settings → Secrets** as a root-level key:
+Streamlit Community Cloud (current): push to `main`, then **Create app → Deploy a public app from GitHub**, repo `Fix-It-Campus`, branch `main`, main file `app.py`, and paste secrets into **Manage app → Settings → Secrets** as a root-level key:
 
 ```toml
 GEMINI_API_KEY = "your-key"
